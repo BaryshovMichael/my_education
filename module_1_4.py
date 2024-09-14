@@ -1,5 +1,3 @@
-from dataclasses import replace
-
 my_string = input('Введите текст: ')
 print (len(my_string))
 print (my_string.upper())
