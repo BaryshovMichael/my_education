@@ -1,10 +1,10 @@
-# "1st program"
-print(9**0.5 *5)
-# "2nd program"
-print (9.99>9.98 and 1000 != 1000.1)
-# "3rd program"
-print (2*2+2)
-print (2*(2+2))
-print ((2*2+2) == (2*(2+2)))
-# "4th program"
-print (int((float('123.456'))*10)%10)
+first = int(input ('Введите первое число:'))
+second = int(input('Введите второе число:'))
+third = int(input('Введите третье число:'))
+
+if first == second == third:
+    print('Колличество одинаковых чисел:',3)
+elif first == second or second == third or third == first:
+    print('Колличество одинаковых чисел:',2)
+else:
+    print('Колличество одинаковых чисел:',0)
