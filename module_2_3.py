@@ -9,6 +9,8 @@ while start_variable < len(my_list):
         if start_variable < len(positive_numbers):
             print(positive_numbers[start_variable])
             start_variable += 1
-            continue
+            if my_list[start_variable] < 0:
+                break
+        continue
     else:
         start_variable += 1
